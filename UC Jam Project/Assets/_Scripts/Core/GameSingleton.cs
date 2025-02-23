@@ -28,7 +28,7 @@ public class GameSingleton : MonoBehaviour
 
     #endregion
     
-    public InputManager InputManager;
+    [HideInInspector] public InputManager InputManager;
 
     private void NonSingletonAwake()
     {

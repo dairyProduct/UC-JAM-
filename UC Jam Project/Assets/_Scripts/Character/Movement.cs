@@ -78,7 +78,7 @@ public class Movement : MonoBehaviour
                 ForceMode2D.Impulse);
         }
 
-        if (!isAerial)
+        if (true || !isAerial)
         {
             rb.linearVelocityX = Mathf.Clamp(rb.linearVelocityX, -baseMaxVelocity, baseMaxVelocity);
         }
